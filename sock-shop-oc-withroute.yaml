@@ -395,7 +395,6 @@ objects:
       targetPort: 80
     selector:
       name: payment
-	  
 - apiVersion: apps/v1
   kind: Deployment
   metadata:
