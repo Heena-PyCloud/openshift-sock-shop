@@ -57,7 +57,7 @@ objects:
     - port: 27017
       targetPort: 27017
     selector:
-      name: carts-db	  
+      name: carts-db
 - apiVersion: apps/v1
   kind: Deployment
   metadata:
@@ -231,7 +231,7 @@ objects:
           ports:
           - containerPort: 8079
         nodeSelector:
-          beta.kubernetes.io/os: linux		  
+          beta.kubernetes.io/os: linux
 - apiVersion: v1
   kind: Service
   metadata:
