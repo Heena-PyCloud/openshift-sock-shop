@@ -475,7 +475,6 @@ objects:
       name: "epmd"
     selector:
       name: rabbitmq
-	  
 - apiVersion: apps/v1
   kind: Deployment
   metadata:
@@ -511,7 +510,6 @@ objects:
               medium: Memory
         nodeSelector:
           beta.kubernetes.io/os: linux
-		  		  
 - apiVersion: v1
   kind: Service
   metadata:
